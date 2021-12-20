@@ -5,7 +5,7 @@ html, body {
 }
 
 html {
-    background: url(cover.jpg) no-repeat center center fixed;
+    background: url(cover.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -16,6 +16,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.info {
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding: 0.1rem 1rem;
+    background-color: #00000077;
 }
 
 .footer {
